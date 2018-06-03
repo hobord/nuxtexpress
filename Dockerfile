@@ -3,8 +3,8 @@ FROM node:8
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-#COPY . /usr/src/app/
-RUN git clone https://github.com/hobord/nuxtexpress.git .
+COPY . /usr/src/app/
+#RUN git clone https://github.com/hobord/nuxtexpress.git .
 RUN npm install
 
 # Build and Test app

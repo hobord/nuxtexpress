@@ -17,5 +17,6 @@ ENV HOST 0.0.0.0
 EXPOSE 3000
 
 CMD [ "npm", "run", "test" ]
-CMD [ "npm", "start" ]
+
+ENTRYPOINT [ "npm", "start" ]
 #CMD [ "bash" ]

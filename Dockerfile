@@ -13,7 +13,7 @@ RUN npm run build
 # Test app
 #RUN npm run test:unit && npm run test:e2e
 
-ENV HOST 0.0.0.0
+#ENV HOST 0.0.0.0
 EXPOSE 3000
 
 #ENTRYPOINT [ "npm", "run", "test" ]

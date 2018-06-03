@@ -16,7 +16,6 @@ RUN npm run build
 ENV HOST 0.0.0.0
 EXPOSE 3000
 
-ENTRYPOINT [ "npm", "run", "test" ]
-
-CMD [ "executable" ] [ "npm", "start" ]
+#ENTRYPOINT [ "npm", "run", "test" ]
+CMD [ "npm", "start" ]
 #CMD [ "bash" ]

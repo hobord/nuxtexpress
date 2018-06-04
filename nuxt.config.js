@@ -1,4 +1,14 @@
 module.exports = {
+  // env: {
+  //   HOST: '0.0.0.0',
+  //   PORT: '3000'
+  // },
+  axios: {
+    proxy: true
+  },
+  // proxy: {
+  //   '/api': process.env.API_URL || 'http://localhost:3000'
+  // },
   /*
   ** Headers of the page
   */
